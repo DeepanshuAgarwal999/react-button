@@ -26,7 +26,7 @@ export default App;
 ```
 
 | Prop Name   | Type     | Description                                   |
-|-------------|----------|----------|------------------------------------|
+|-------------|----------|-----------------------------------------------|
 | children    | string   | Simply pass your jsx code inside this prop    |
 | className   | string   | Extend or override Tailwind classes.          |
 | textStyle   | string   | Extend or override Tailwind classes.          |
