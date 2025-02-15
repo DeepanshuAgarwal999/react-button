@@ -1,24 +1,32 @@
-# React-Button
 
-My React Library provides a simple and customizable Button component for your React projects.
+# react-stylish-Button
+
+react-stylish-button provides a simple and customizable Button component for your React projects.
+It is fully customizable and supports Tailwindcss.
+You can easily customize the button to your liking.
+
 
 ## Installation
 
 To install the library, you can use npm or yarn:
 
 ```bash
-npm install react-button
+npm install react-stylish-button --save
 
 import React from 'react';
-import Button from 'react-button';
+import 'react-stylish-button/dist/index.css';
+# To install styles install this.
+import Button from 'react-stylish-button';
+
+
 
 const App = () => {
   return (
     <div>
-     <button className="bg-red-500 flex items-center justify-center rounded-md
+     <StylishButton className="bg-red-500 flex items-center justify-center rounded-md
       border border-white text-white transition-all duration-300">
       Click Me
-    </button>
+    </StylishButton>
     </div>
   );
 };
@@ -32,9 +40,11 @@ export default App;
 | textStyle   | string   | Extend or override Tailwind classes.          |
 
 
+
 🔧 TypeScript Support
 This component is fully typed. Make sure your tsconfig.json includes:
 
+For ts
 {
   "compilerOptions": {
     "strict": true,
@@ -43,5 +53,7 @@ This component is fully typed. Make sure your tsconfig.json includes:
   }
 }
 
+
 🤝 Contributing
 Contributions are welcome! Please fork this repository and submit a pull request.
+
