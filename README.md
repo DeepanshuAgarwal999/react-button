@@ -1,8 +1,10 @@
+
 # react-stylish-Button
 
 react-stylish-button provides a simple and customizable Button component for your React projects.
 It is fully customizable and supports Tailwindcss.
 You can easily customize the button to your liking.
+
 
 ## Installation
 
@@ -15,6 +17,8 @@ import React from 'react';
 import 'react-stylish-button/dist/index.css';
 # To install styles install this.
 import Button from 'react-stylish-button';
+
+
 
 const App = () => {
   return (
@@ -52,3 +56,4 @@ For ts
 
 🤝 Contributing
 Contributions are welcome! Please fork this repository and submit a pull request.
+
